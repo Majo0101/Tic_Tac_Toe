@@ -25,6 +25,9 @@ int main(){
        if(players == 0)break;
    }
 
+   printf("\n\nPress ENTER to escape \n\n");
+   getchar();
+
     return 0;
 }
 
@@ -126,3 +129,4 @@ void enigma(){
 //            00 - 01 - 02
 //            10 - 11 - 12
 //            20 - 21 - 22
+
